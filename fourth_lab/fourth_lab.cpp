@@ -56,7 +56,6 @@ int main() {
 
 	//Функция,сортирующая массив методом пузырька
 	mas = bubbleSort(mas, sizeMas);
-	cout << endl;
 
 	//Функция, удаляющая нечетные элементы
 	mas = deleteOddElement(mas, sizeMas);
