@@ -40,7 +40,7 @@ int main() {
 	setlocale(LC_ALL, "Rus");
 	int k;
 
-	cout << "Введите длинну массива: ";
+	cout << "Введите длину массива: ";
 	cin >> sizeMas;
 
 	int* mas = new int[sizeMas];
@@ -55,10 +55,10 @@ int main() {
 	masiveOutput(mas, sizeMas, k);
 
 	//Функция,сортирующая массив методом пузырька
-	mas = bubbleSort(mas, sizeMas);
+	bubbleSort(mas, sizeMas);
 
 	//Функция, удаляющая нечетные элементы
-	mas = deleteOddElement(mas, sizeMas);
+	deleteOddElement(mas, sizeMas);
 
 	cout << endl << "Вывод упорядоченного по убыванию массива четных чисел: " << endl;
 	masiveOutput(mas, sizeMas, k);
