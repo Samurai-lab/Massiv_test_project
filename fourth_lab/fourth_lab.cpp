@@ -39,13 +39,15 @@ int* deleteOddElement(int mas[], int size) {
 int main() {
 	setlocale(LC_ALL, "Rus");
 	int k;
-
+	
 	cout << "Введите длину массива: ";
 	cin >> sizeMas;
 
 	int* mas = new int[sizeMas];
+	cout << "Введите элементы массива: " << endl;
 	for (int i = 0; i < sizeMas; ++i) {
-		mas[i] = i + 1;
+		cout << "Элемент массива " << i + 1 << " : ";
+		cin >> mas[i] ;
 	}
 
 	cout << "Введите элемент к: ";
