@@ -60,7 +60,7 @@ int main() {
 	//Функция, удаляющая нечетные элементы
 	deleteOddElement(mas, sizeMas);
 
-	cout << endl << "Вывод упорядоченного по убыванию массива четных чисел: " << endl;
+	cout << endl << "Вывод упорядоченного по убыванию массива четных чисел от k до k + 1: " << endl;
 	masiveOutput(mas, sizeMas, k);
 
 	delete[] mas;
